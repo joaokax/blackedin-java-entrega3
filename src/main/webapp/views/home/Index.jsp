@@ -5,7 +5,7 @@
 <head>
 <title>Homepage BlackdIn</title>
 <meta charset="utf-8" />
-<link rel="icon" href="../entrega 3 - grupo/img/linkedin-favicon.jpg" />
+<link rel="icon" href="https://i.imgur.com/sNHJYvo.jpg" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="theme-color" content="#000000" />
 <link
@@ -30,13 +30,13 @@
 				<div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
 					<h1 id="h">Inserindo negros no mercado</h1>
 					<p>Ajudando pessoas negras a se qualificarem e se sentirem prontas para enfrentar todos os desafios do mercado de trabalho.</p>
-					<button class="btn btn-light btn-lg action-button" type="button">Veja mais</button>
+					<a href="Index.jsp#objetivos"><button class="btn btn-light btn-lg action-button" type="button">Veja mais</button></a>
 				</div>
 				<div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
-					<%//@include file="/WEB-INF/views/assets/img/header-img.svg"%>
+					<img src="https://i.imgur.com/VFfiShh.png" style="width:350px">
 					
 					<div class="phone-mockup">
-						<div class="screen"><img src="../../img/1.jpg"></div>
+						<div class="screen"></div>
 					</div>
 				</div>
 			</div>
@@ -49,7 +49,7 @@
 				<div class="row">
 					<div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
 						<div class="intro">
-							<h1 class="text-center">Qual a nossa dor?</h1>
+							<h1 id="objetivos" class="text-center">Qual a nossa dor?</h1>
 							<p class="text-center"></p>
 						</div>
 						
@@ -61,7 +61,7 @@
 								perfil da população brasileira e sua representatividade nos
 								cargos mais rentáveis e de maiores reconhecimento.<br>
 							</p>
-							<img class="img-fluid" src="" style="width: 100%;">
+							<img class="img-fluid" src="https://i.imgur.com/OI9PVbn.jpg" style="width: 100%;">
 							<h2>Pensando nisso...</h2>
 							<p>
 								A BlackdIn criou uma plataforma que visa impulsionar pessoas
@@ -71,7 +71,7 @@
 								qualificações e suporte para as suas jornadas.<br>
 							</p>
 							<figure class="figure d-block">
-								<img class="figure-img" src="">
+								<img class="figure-img" src="https://i.imgur.com/RZLHBIg.jpg">
 							</figure>
 						</div>
 					</div>
@@ -80,7 +80,7 @@
 		</section>
 		<div class="container">
 			<div class="intro">
-				<h2 class="text-center">Funcionalidades</h2>
+				<h2 id="funcionalidades" class="text-center">Funcionalidades</h2>
 				<p class="text-center">Trouxemos algumas funcionalidades já
 					conhecidas em redes de relacionamentos, mas que ganharam um novo
 					propósito aqui no BlackedIn.</p>
@@ -179,7 +179,7 @@
 				
 				<div class="col-sm-4">
 					<div class="d-none d-md-block phone-mockup">
-						<img class="device" src=<%//@include file="/WEB-INF/views/assets/img/phone.svg"%>>
+						<img class="device" src="https://i.imgur.com/IAOBQKc.jpg">
 						<div class="screen"></div>
 					</div>
 				</div>
@@ -190,7 +190,7 @@
 	<section class="testimonials-clean">
 		<div class="container">
 			<div class="intro">
-				<h2 class="text-center">O que nossos usuarios dizem?</h2>
+				<h2 id="testemunhos" class="text-center">O que nossos usuarios dizem?</h2>
 				<p class="text-center">Quem utiliza nossos serviços aprendeu a
 					amar! Não perca essa chance única de mudar o seu rumo profissional,
 					ou o quadro de funcionários da sua empresa.</p>
@@ -203,7 +203,7 @@
 							cadastro e em 7 dias consegui minha primeira oportunidade."</p>
 					</div>
 					<div class="author">
-						<img class="rounded-circle" src="">
+						<img class="rounded-circle" src="https://i.imgur.com/KugYnkB.jpg">
 						<h5 class="name">Carla de Oliveira</h5>
 						<p class="title">Desenvolvedora full-stack na xyz.inc</p>
 					</div>
@@ -212,11 +212,11 @@
 					<div class="box">
 						<p class="description">"Certamente será minha recomendação a
 							todos que buscam uma boa colocação no mercado de trabalho. Estou
-							satisfeita com a transparência e com o empenho quanto a minha
+							satisfeito com a transparência e com o empenho quanto a minha
 							recolocação profissional."</p>
 					</div>
 					<div class="author">
-						<img class="rounded-circle" src="">
+						<img class="rounded-circle" src="https://i.imgur.com/2Y7Bssn.jpg">
 						<h5 class="name">Carlos Santana</h5>
 						<p class="title">Recrutador na milestone.inc</p>
 					</div>
@@ -229,7 +229,7 @@
 							de diversas oportunidades disponíveis diariamente."</p>
 					</div>
 					<div class="author">
-						<img class="rounded-circle" src="">
+						<img class="rounded-circle" src="https://i.imgur.com/4BF4Rae.jpg">
 						<h5 class="name">Marcus dos Santos</h5>
 						<p class="title">Designer na Xdesign.inc</p>
 					</div>
@@ -241,7 +241,7 @@
 	<section class="team-clean">
 		<div class="container">
 			<div class="intro">
-				<h2 class="text-center">Nosso time</h2>
+				<h2 id="time" class="text-center">Nosso time</h2>
 				<p class="text-center">Nosso time é formado por profissionais
 					altamente capacitados e embasados para criar soluções que realmente
 					ajudam o público alvo.</p>
@@ -249,7 +249,7 @@
 			
 			<div class="row people d-flex justify-content-center">
 				<div class="col-md-6 col-lg-3 item">
-					<img class="rounded-circle" src="">	
+					<img class="rounded-circle" src="https://i.imgur.com/EHpj26z.jpg">	
 					<h3 class="name">Lara</h3>
 					<p class="title">Project owner/Dev</p>
 					<div class="social">
@@ -261,7 +261,7 @@
 				</div>
 				
 				<div class="col-md-6 col-lg-3 item">
-					<img class="rounded-circle" src="">
+					<img class="rounded-circle" src="https://i.imgur.com/oSis5DH.png">
 					<h3 class="name">Tassio</h3>
 					<p class="title">C.T.O/Dev</p>
 					<div class="social">
@@ -273,7 +273,7 @@
 				</div>
 				
 				<div class="col-md-6 col-lg-3 item">
-					<img class="rounded-circle"src="">
+					<img class="rounded-circle"src="https://i.imgur.com/0hPQ5cN.jpg">
 					<h3 class="name">Lucas</h3>
 					<p class="title">Designer/Dev</p>
 					<div class="social">
@@ -283,7 +283,7 @@
 				</div>
 				
 				<div class="col-md-6 col-lg-3 item">
-					<img class="rounded-circle" src="">
+					<img class="rounded-circle" src="https://i.imgur.com/ZsIDmSM.jpg">
 					<h3 class="name">Diego</h3>
 					<p class="title">Arquiteto de software/Dev</p>
 					<div class="social">

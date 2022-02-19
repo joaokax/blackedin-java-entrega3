@@ -3,3 +3,7 @@ encoding//src/main/webapp/views/assets/css/styles.css=UTF-8
 encoding//src/main/webapp/views/home/CadastroEmpresa.jsp=UTF-8
 encoding//src/main/webapp/views/home/CadastroProfissional.jsp=UTF-8
 encoding//src/main/webapp/views/home/Index.jsp=UTF-8
+encoding//src/main/webapp/views/home/MatchEmpresa.jsp=UTF-8
+encoding//src/main/webapp/views/home/MatchProfissional.jsp=UTF-8
+encoding//src/main/webapp/views/home/PerfilEmpresa.jsp=UTF-8
+encoding//src/main/webapp/views/home/PerfilProfissional.jsp=UTF-8

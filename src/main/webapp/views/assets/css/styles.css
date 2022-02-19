@@ -1,4 +1,9 @@
 @charset "UFT-8";
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 a.navbar-brand {
     white-space: normal;
     text-align: center;
@@ -364,7 +369,7 @@ nav {
 }
 
 .header-blue .phone-mockup img.device {
-    width: 100%;
+    width: 40%;
     height: auto;
 }
 
@@ -378,7 +383,7 @@ nav {
     border-radius: 20px;
     background-color: #aaa;
     overflow: hidden;
-    background: url(../../assets/img/screen-content-phone.jpg);
+    background: url("https://i.imgur.com/VFfiShh.png");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -401,7 +406,7 @@ nav {
 .article-clean {
     color: #56585b;
     background-color: #fff;
-    font-family: Roboto, serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
 }
 
@@ -417,6 +422,7 @@ nav {
             line-height: 1.5;
             color: inherit;
             margin-top: 20px;
+            font-weight: 600;
         }
 
         .article-clean .intro p {
@@ -651,6 +657,7 @@ nav {
     .highlight-phone .phone-mockup img.device {
         width: 100%;
         height: auto;
+        border-radius: 20px;
     }
 
     .highlight-phone .phone-mockup .screen {
@@ -872,6 +879,11 @@ nav {
     margin-bottom: 35px;
 }
 
+.rounded-circle{
+	object-fit: cover;
+}
+
+
 /*Estilos referentes ao footer*/
 
 .footer-basic {
@@ -988,16 +1000,24 @@ nav {
     border-radius: 12px;
 }
 
+#btn-filtrar {
+    font-size: 20px;
+    background-color: #d25e2c;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 12px;
+}
+
 /*Inicio do css do cadastro Empresa*/
 
 
 #bg-cad-empresa {
-    background-image: url(../img/bg-cadastro-empresa.jpg);
+    background-image: url("https://i.imgur.com/uEo0YFh.jpg");
     background-size: cover;
 }
 
 #cad-img-empresa {
-    background-image: url(../img/cadastro-empresa.jpg);
+    background-image: url("https://i.imgur.com/l9W5hbm.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-top-left-radius: 15px;
@@ -1129,11 +1149,11 @@ a {
 }
 
 .empresa-img {
-    background-image: url('../img/itau.jpg');
+    background-image: url("https://i.imgur.com/uQEcZY8.jpg");
 }
 
 .profissional-img {
-    background-image: url('../img/Pessoa\ desenvolvedora.jpg');
+    background-image: url("https://i.imgur.com/WdoTWxw.jpg");
 }
 
 .pag-match {
@@ -1235,3 +1255,95 @@ label {
     font-size: 14px;
     text-align: center;
 }
+
+
+/* ESTILOS DAS PÁGINAS DE PERFIL    */
+
+.pag-perfil {
+    max-width: 1000px;
+    margin:auto;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    overflow-x: hidden;
+}
+
+.head-perfil {
+    color: #f1f1f1;
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+  }
+
+  #cor-perfil-profissional {
+    background-color: #462F98;
+  }
+
+  #cor-perfil-empresa {
+    background-color: #D25E2C;
+  }
+
+  .head-perfil h1{
+    font-size: 24px;
+    margin: 10px 0 10px 0;
+  }
+
+  .head-perfil img{
+    width: 100px;
+    height:100px;
+    padding: 3px;
+    margin-top: 50px;
+    border-radius:50%;
+    background-color:#f1f1f1;
+    object-fit: cover;
+  }
+
+  .container-dados-perfil {
+    background-color: transparent;
+    color: #333;
+  }
+  
+  .container-dados-perfil h6 {
+    font-weight:600;
+  }
+
+  .card-perfil{
+      border: 1.5px solid #ddd;
+      border-radius: 12px;
+  }
+.btn-perfil-editar {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    margin: 10px 0 10px 0;
+    border: none;
+    transition: .2s;
+}
+
+.btn-perfil-editar:hover {
+    opacity: 0.8;
+}
+
+.btn-perfil-lista {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f1f1f1;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.btn-perfil-deletar {
+    font-size: 12px;
+    font-weight: 600;
+    color: #f1f1f1;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    margin: 60px 0 20px 0;
+}
+

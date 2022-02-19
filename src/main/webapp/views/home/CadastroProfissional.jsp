@@ -4,7 +4,7 @@
 <head>
 <title>Cadastro Profissional</title>
 <meta charset="utf-8" />
-<link rel="icon" href="../entrega 3 - grupo/img/linkedin-favicon.jpg" />
+<link rel="icon" href="https://i.imgur.com/sNHJYvo.jpg" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="theme-color" content="#000000" />
 <link
@@ -28,8 +28,8 @@
 			<div id="form-container" class="row">
 				<div id="cad-img-profissional" class="col-md-6"></div>
 				<div id="border-cadastro" class="col d-flex flex-column justify-content-center">
-					<form>
-						<h2>Cadastro profissional</h2>
+					<form action="<%=request.getContextPath()%>/ProfissionalServlet" method="post">
+						<h2>Cadastro Profissional</h2>
 						<br /> 
 						<label>Nome</label> <input id="nome" class="form-control" type="text" required /> <br /> 	
 						<label>Email</label> <input id="email" class="form-control" type="email" required /> <br />
@@ -70,11 +70,16 @@
 						<textarea id="experiencias" class="form-control" style="height: 100px; max-height: 150px;" placeholder="Escreva aqui suas experiências profissionais"></textarea><br /> 
 						<label>Competências (separe por vírgula)</label>
 						<textarea id="competencias" class="form-control" style="height: 100px; max-height: 150px;" placeholder="ex: Comunicativo, Photoshop, Banco de dados"></textarea><br />
-					</form>
+					
+						<br />
+						
+						<div id="btn-form" class="d-flex">
+						<button type="submit" id="btn-cadastrar" class="btn px-4 py-2 font-weight-light">
+						Cadastrar
+						</button>
+						</div>
 
-					<div id="btn-form" class="d-flex">
-						<a id="btn-cadastrar" class="btn px-4 py-2 font-weight-light" asp-controller="Home" asp-action="MatchProfissional">Cadastrar</a>
-					</div>
+					</form>
 					
 				</div>
 			</div>

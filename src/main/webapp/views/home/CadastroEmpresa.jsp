@@ -4,7 +4,7 @@
 <head>
 <title>Cadastro Empresa</title>
 <meta charset="utf-8" />
-<link rel="icon" href="../entrega 3 - grupo/img/linkedin-favicon.jpg" />
+<link rel="icon" href="https://i.imgur.com/sNHJYvo.jpg" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="theme-color" content="#000000" />
 <link
@@ -31,7 +31,7 @@
 				<div id="border-cadastro"
 					class="col d-flex flex-column justify-content-center">
 					<form action="<%=request.getContextPath()%>/EmpresaServlet" method="post">
-						<h2>Cadastro da Empresa</h2>
+						<h2>Cadastro Empresa</h2>
 						<br /> 
 						<label>Nome da Empresa</label> 
 						<input id="nome" class="form-control" type="text" name="nome_empresa" required /> 
@@ -78,11 +78,14 @@
 						<label>Descrição</label>
 						<textarea id="descricao" class="form-control" style="height: 100px; max-height: 150px;" placeholder="Escreva aqui uma breve descrição sobre a empresa" name="descricao" required></textarea>
 						<br />
+						
+						<div id="btn-form" class="d-flex">
+						<button type="submit" id="btn-cadastrar" class="btn px-4 py-2 font-weight-light">
+						Cadastrar
+						</button>
+						</div>
+						
 					</form>
-					
-					<div id="btn-form" class="d-flex">
-						<a id="btn-cadastrar" class="btn px-4 py-2 font-weight-light" asp-controller="Home" asp-action="MatchEmpresa">Cadastrar</a>
-					</div>
 					
 				</div>
 			</div>

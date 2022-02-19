@@ -16,11 +16,11 @@
 				class="icon bi bi-pinterest"></i></a>
 		</div>
 		<ul class="list-inline">
-			<li class="list-inline-item"><a href="#">Home</a></li>
-			<li class="list-inline-item"><a href="#">Objetivos</a></li>
-			<li class="list-inline-item"><a href="#">Funcionalidade</a></li>
-			<li class="list-inline-item"><a href="#">Testemunhos</a></li>
-			<li class="list-inline-item"><a href="#">Time</a></li>
+			<li class="list-inline-item"><a href="Index.jsp">Home</a></li>
+			<li class="list-inline-item"><a href="Index.jsp#objetivos">Objetivos</a></li>
+			<li class="list-inline-item"><a href="Index.jsp#funcionalidades">Funcionalidade</a></li>
+			<li class="list-inline-item"><a href="Index.jsp#testemunhos">Testemunhos</a></li>
+			<li class="list-inline-item"><a href="Index.jsp#time">Time</a></li>
 		</ul>
 		<p class="copyright">Blackedin © 2022</p>
 	</footer>

@@ -10,7 +10,7 @@
 	<nav
 		class="navbar navbar-dark navbar-expand-md navigation-clean-search">
 		<div class="container">
-			<a class="navbar-brand" >
+			<a class="navbar-brand" href="Index.jsp">
 				<img src="https://i.imgur.com/D0uTa9x.png"/>
 			</a>
 
@@ -27,15 +27,15 @@
 				<span class="navbar-text"> </span>
 
 			</div>
-			<a class="btn action-button" role="button" href="#">Login</a>
+			<a class="btn action-button" role="button" href="login.jsp">Login</a>
 
 			<div class="dropdown">
 				<button class="dropdown-toggle btn-cadastre-se" type="button"
 					id="dropdownMenuButton1" data-bs-toggle="dropdown"
 					aria-expanded="false">Cadastre-se</button>
 				<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-					<li><a class="dropdown-item" href="#">Profissional</a></li>
-					<li><a class="dropdown-item" href="#">Empresa</a></li>
+					<li><a class="dropdown-item" href="CadastroProfissional.jsp">Profissional</a></li>
+					<li><a class="dropdown-item" href="CadastroEmpresa.jsp">Empresa</a></li>
 				</ul>
 			</div>
 		</div>
